@@ -1,38 +1,38 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explorador de Políticas Wikifake</title>
+    <title>Wikifake Policy Explorer</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Explorador de Políticas Wikifake</h1>
-            <p>Ver las políticas y hacer preguntas sobre el contenido</p>
+            <h1>Wikifake Policy Explorer</h1>
+            <p>View policies and ask questions about the content</p>
         </header>
         
         <main>
             <div class="content-panel">
-                <h2>Contenido del Documento</h2>
+                <h2>Document Content</h2>
                 <div class="text-content">
                     <pre>{{ text_content|safe }}</pre>
                 </div>
             </div>
             
             <div class="chat-panel">
-                <h2>Preguntar sobre las Políticas</h2>
+                <h2>Ask about Policies</h2>
                 <div class="chat-container">
                     <div id="chat-messages">
                         <div class="message system">
-                            ¡Bienvenido! Hazme cualquier pregunta sobre el documento de políticas de Wikifake.
+                            Welcome! Ask me any question about the Wikifake policy document.
                         </div>
                     </div>
                     <div class="chat-input-container">
-                        <textarea id="user-input" placeholder="Escribe tu pregunta aquí..." rows="1"></textarea>
-                        <button id="send-button">Enviar</button>
+                        <textarea id="user-input" placeholder="Type your question here..." rows="1"></textarea>
+                        <button id="send-button">Send</button>
                     </div>
                 </div>
             </div>

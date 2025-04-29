@@ -1,0 +1,530 @@
+WIKIFAKE FOUNDATION - BOARD AND STAFF POLICIES
+Last Updated: 2025
+
+=============================================================================
+TABLE OF CONTENTS
+=============================================================================
+
+1. CODE OF CONDUCT POLICY
+2. BOARD OF TRUSTEES CODE OF CONDUCT
+3. CONFLICT OF INTEREST POLICY
+4. CONFIDENTIALITY AGREEMENT
+5. FINANCIAL POLICIES
+   5.1 Credit Card Usage
+   5.2 Delegation of Authority
+6. OPERATIONAL POLICIES
+   6.1 Duty Entertainment Guidelines
+   6.2 Gift Policy
+7. COMPLIANCE POLICIES
+   7.1 Anti-Corruption Policy
+   7.2 Non-discrimination Policy
+8. TRAVEL POLICIES
+   8.1 General Travel Policy
+   8.2 Travel Approval Process
+9. WHISTLEBLOWER PROTECTION
+
+=============================================================================
+1. CODE OF CONDUCT POLICY (adopted April 2017)
+=============================================================================
+
+The Wikifake Foundation is committed to fostering a respectful and collaborative environment. This Code of Conduct establishes the expectations for behavior within our organization.
+
+1.1 PURPOSE
+This policy aims to establish clear guidelines for professional conduct, ensuring all staff and board members uphold the highest ethical standards in their work.
+
+1.2 SCOPE
+This policy applies to all Wikifake Foundation staff, board members, contractors, and volunteers when conducting Foundation business or representing the Foundation.
+
+1.3 CORE PRINCIPLES
+- Integrity: Act honestly and ethically in all professional relationships
+- Respect: Treat all individuals with dignity and respect
+- Accountability: Take responsibility for actions and decisions
+- Transparency: Communicate openly and honestly
+- Collaboration: Work cooperatively with others
+
+1.4 PROHIBITED CONDUCT
+The following behaviors are strictly prohibited:
+- Harassment or discrimination of any kind
+- Bullying or intimidation
+- Dishonesty or deception
+- Conflicts of interest that compromise objectivity
+- Misuse of Foundation resources
+- Violation of confidentiality
+
+1.5 REPORTING VIOLATIONS
+Individuals who witness or experience violations of this Code should report them to:
+- Their immediate supervisor
+- The Human Resources department
+- The Ethics Committee
+- The Whistleblower hotline
+
+1.6 CONSEQUENCES
+Violations of this Code may result in disciplinary action, up to and including termination of employment or removal from the Board.
+
+=============================================================================
+2. BOARD OF TRUSTEES CODE OF CONDUCT (adopted October 2016)
+=============================================================================
+
+2.1 PURPOSE
+This Code of Conduct establishes specific standards for Board members to ensure they fulfill their fiduciary responsibilities and maintain the highest level of integrity.
+
+2.2 FIDUCIARY DUTIES
+Board members must fulfill three primary duties:
+- Duty of Care: Exercise reasonable care and diligence in overseeing the Foundation
+- Duty of Loyalty: Act in the best interests of the Foundation, not personal interests
+- Duty of Obedience: Ensure the Foundation operates in accordance with its mission and applicable laws
+
+2.3 MEETING ATTENDANCE AND PARTICIPATION
+- Board members are expected to attend at least 75% of scheduled meetings
+- Preparation for meetings is mandatory, including reviewing all pre-meeting materials
+- Active participation in discussions and decision-making is required
+- Absence from three consecutive meetings without valid reason may result in removal
+
+2.4 DECISION-MAKING PROTOCOLS
+- Decisions should be made through consensus when possible
+- When voting is necessary, majority rule applies unless otherwise specified
+- Board members must respect and support decisions once made, even if they disagreed
+- Dissenting opinions should be expressed constructively and recorded appropriately
+
+2.5 CONFIDENTIALITY
+Board members must maintain strict confidentiality regarding:
+- Sensitive discussions during Board meetings
+- Personnel matters
+- Financial information not publicly disclosed
+- Strategic planning
+- Legal matters
+
+2.6 CONFLICTS OF INTEREST
+- Board members must disclose any potential conflicts of interest
+- Members must recuse themselves from discussions and votes where conflicts exist
+- Annual conflict of interest disclosure statements are required
+
+=============================================================================
+3. CONFLICT OF INTEREST POLICY (adopted September 2016, updated June 2018)
+=============================================================================
+
+3.1 PURPOSE
+This policy aims to protect the Foundation's interests when contemplating transactions that might benefit the private interests of officers, directors, or other interested persons.
+
+3.2 DEFINITION OF CONFLICTS
+A conflict of interest arises when a person in a position of authority may benefit personally from a decision they could make in their organizational capacity. This includes:
+- Financial interests in organizations doing business with Wikifake
+- Family relationships with employees, contractors, or vendors
+- Dual roles in organizations with competing or overlapping interests
+- Receipt of gifts or favors that might influence decision-making
+
+3.3 DISCLOSURE REQUIREMENTS
+All board members, officers, and key employees must:
+- Complete an annual disclosure statement identifying potential conflicts
+- Update their disclosure if new conflicts arise during the year
+- Verbally disclose conflicts before discussions on relevant topics
+
+3.4 RECUSAL PROCEDURES
+When a conflict exists:
+- The individual must disclose the conflict before discussion begins
+- The individual must leave the room during discussion and voting
+- The minutes must record the disclosure, recusal, and vote
+- The individual may provide information upon request before leaving
+
+3.5 ANNUAL DISCLOSURE STATEMENTS
+Annual statements must include:
+- Any business relationships with the Foundation
+- Any entities in which the individual has an ownership interest
+- Any entities for which the individual serves as an officer or director
+- Any transactions in the past year that might constitute a conflict
+
+3.6 RESOLUTION MECHANISMS
+The Board or designated committee will:
+- Review all disclosure statements
+- Determine if conflicts exist
+- Decide if proposed transactions are fair and in the Foundation's best interest
+- Document the decision-making process
+
+=============================================================================
+4. CONFIDENTIALITY AGREEMENT (adopted April 2020)
+=============================================================================
+
+4.1 PURPOSE
+This agreement protects sensitive and proprietary information from unauthorized disclosure, ensuring the Foundation's interests are safeguarded.
+
+4.2 DEFINITION OF CONFIDENTIAL INFORMATION
+Confidential information includes, but is not limited to:
+- Strategic plans and initiatives
+- Financial data and projections
+- Donor information
+- Personnel matters and records
+- Legal matters
+- Unpublished content and intellectual property
+- Technical specifications and security measures
+- Board deliberations
+
+4.3 OBLIGATIONS
+All board members, staff, and contractors must:
+- Maintain strict confidentiality of all non-public information
+- Use confidential information only for Foundation purposes
+- Take reasonable measures to prevent unauthorized access
+- Return all confidential materials upon request or termination
+- Continue to protect confidentiality after leaving the Foundation
+
+4.4 DATA HANDLING PROCEDURES
+- Confidential documents must be clearly marked
+- Digital files must be password-protected and encrypted when appropriate
+- Physical documents must be stored in secure locations
+- Disposal must be through secure shredding or deletion
+- Sharing must occur only through secure channels
+
+4.5 INFORMATION CLASSIFICATION LEVELS
+- Public: Information approved for public release
+- Internal: Information for staff use only
+- Confidential: Sensitive information with restricted access
+- Restricted: Highly sensitive information with strictly limited access
+
+4.6 BREACH REPORTING
+Any known or suspected breach must be reported immediately to:
+- The Security Officer
+- The Legal Department
+- The Executive Director
+
+=============================================================================
+5. FINANCIAL POLICIES
+=============================================================================
+
+5.1 CREDIT CARD USAGE POLICY (adopted February 2009)
+
+5.1.1 AUTHORIZED USERS
+- Credit cards may be issued only to department directors and above
+- Temporary cards may be issued for specific projects with approval
+- All users must sign a cardholder agreement before receiving a card
+
+5.1.2 PERMITTED EXPENSES
+Credit cards may be used for:
+- Business travel expenses
+- Office supplies
+- Conference registrations
+- Subscriptions and memberships
+- Approved entertainment expenses
+
+Credit cards may NOT be used for:
+- Personal expenses
+- Cash advances
+- Gift cards (unless specifically approved)
+- Capital equipment over $500
+- Consultant services
+
+5.1.3 DOCUMENTATION REQUIREMENTS
+For each purchase, cardholders must submit:
+- Original itemized receipts
+- Business purpose description
+- Names of all attendees for meals/entertainment
+- Account codes for allocation
+- Approval signatures as required
+
+5.1.4 MONTHLY RECONCILIATION
+- Statements must be reconciled within 10 days of receipt
+- Missing receipts require a signed missing receipt form
+- Supervisors must review and approve all expenses
+- Finance department conducts random audits
+
+5.2 DELEGATION OF AUTHORITY POLICY (adopted July 2012, updated March 2025)
+
+5.2.1 SPENDING LIMITS
+- Board of Trustees: Unlimited with majority approval
+- Executive Director: Up to $50,000
+- Department Directors: Up to $12,500
+- Managers: Up to $2,500
+- Staff: Up to $500 with supervisor approval
+
+5.2.2 APPROVAL HIERARCHIES
+- Expenses must be approved by someone at least one level higher
+- Expenses over $25,000 require two approvals
+- Executive Director expenses require Board Treasurer approval
+- Board Chair expenses require Board Vice-Chair approval
+
+5.2.3 EMERGENCY PROCEDURES
+In emergencies where immediate action is required:
+- Executive Director may authorize up to $125,000
+- Department Directors may authorize up to $25,000
+- Emergency actions must be reported to the Board within 24 hours
+- Documentation must be completed within 3 business days
+
+5.2.4 DOCUMENTATION REQUIREMENTS
+All expenditures must include:
+- Detailed description of goods/services
+- Business justification
+- Competitive bids for amounts over $5,000
+- Signed approval forms
+- Contract review by legal for amounts over $12,500
+
+=============================================================================
+6. OPERATIONAL POLICIES
+=============================================================================
+
+6.1 DUTY ENTERTAINMENT GUIDELINES POLICY (adopted June 2018)
+
+6.1.1 ACCEPTABLE ENTERTAINMENT EXPENSES
+The Foundation will reimburse reasonable expenses for:
+- Business meals with external partners, donors, or stakeholders
+- Team-building activities (limited to $50 per person annually)
+- Recognition events for volunteers or staff
+- Hosting visitors or delegations
+- Conference or event receptions
+
+6.1.2 APPROVAL REQUIREMENTS
+- Entertainment expenses must be pre-approved when possible
+- Expenses over $250 require Director approval
+- Expenses over $1,000 require Executive Director approval
+- Recurring entertainment must be budgeted and approved annually
+
+6.1.3 DOCUMENTATION NEEDS
+Documentation must include:
+- Original itemized receipts
+- List of all attendees and their organizations
+- Business purpose of the entertainment
+- Location and date
+- Agenda or topics discussed
+
+6.1.4 SPENDING LIMITS
+- Meals: Up to $37.50 per person
+- Receptions: Up to $25 per person
+- Team building: Up to $50 per person annually
+- Recognition events: Up to $25 per person
+- Alcohol is limited to 20% of the total bill
+
+6.2 GIFT POLICY (updated and passed May 2018)
+
+6.2.1 ACCEPTABLE GIFT VALUES
+- Gifts valued under $12.50 may be accepted without disclosure
+- Gifts valued between $12.50-$50 must be disclosed to supervisors
+- Gifts valued over $50 must be declined or donated to the Foundation
+- Cumulative gifts from one source may not exceed $50 annually
+
+6.2.2 REPORTING REQUIREMENTS
+For gifts between $12.50-$50:
+- Report to immediate supervisor within 5 business days
+- Document the gift, source, value, and circumstances
+- Obtain written approval to keep the gift
+- Record in the gift registry
+
+6.2.3 GIFT REGISTRY MAINTENANCE
+The Ethics Committee maintains a gift registry that includes:
+- Gift description
+- Estimated value
+- Date received
+- Source of the gift
+- Recipient
+- Disposition (kept, declined, donated)
+
+6.2.4 CONFLICT PREVENTION
+- Gifts may never be solicited
+- Gifts may not be accepted during procurement processes
+- Cash or cash equivalents may never be accepted
+- Gifts that create an appearance of impropriety must be declined
+
+=============================================================================
+7. COMPLIANCE POLICIES
+=============================================================================
+
+7.1 ANTI-CORRUPTION POLICY (adopted April 2018)
+
+7.1.1 PROHIBITED PRACTICES
+The following are strictly prohibited:
+- Offering or accepting bribes or kickbacks
+- Facilitating payments to expedite routine governmental actions
+- Political contributions on behalf of the Foundation
+- Payments to government officials without legal review
+- Using third parties to circumvent these prohibitions
+
+7.1.2 DUE DILIGENCE REQUIREMENTS
+Before engaging with third parties, the Foundation must:
+- Conduct background checks on potential partners
+- Verify legitimacy of organizations
+- Document the business need for the relationship
+- Ensure compensation is reasonable for services provided
+- Include anti-corruption clauses in all contracts
+
+7.1.3 REPORTING PROCEDURES
+Suspected violations must be reported to:
+- The Legal Department
+- The Ethics Committee
+- The Whistleblower hotline
+All reports will be investigated promptly and confidentially.
+
+7.1.4 TRAINING REQUIREMENTS
+- All staff must complete anti-corruption training annually
+- Board members must complete training upon appointment
+- Additional training is required for staff working in high-risk areas
+- Training completion is documented in personnel files
+
+7.2 NON-DISCRIMINATION POLICY (passed January 2005)
+
+7.2.1 PROTECTED CATEGORIES
+The Foundation prohibits discrimination based on:
+- Race, color, or ethnicity
+- Religion or creed
+- National origin or ancestry
+- Sex, gender, or gender identity
+- Sexual orientation
+- Age
+- Disability
+- Veteran status
+- Marital or family status
+- Genetic information
+- Any other legally protected characteristic
+
+7.2.2 HIRING PRACTICES
+- Job descriptions will focus on essential qualifications
+- Diverse candidate pools will be sought for all positions
+- Standardized interview questions will be used
+- Multiple interviewers will participate in hiring decisions
+- All hiring managers must complete bias awareness training
+
+7.2.3 WORKPLACE BEHAVIOR
+All staff and board members must:
+- Treat others with respect and dignity
+- Avoid language or behavior that could be perceived as discriminatory
+- Report observed discrimination
+- Participate in diversity and inclusion training
+- Support an inclusive work environment
+
+7.2.4 COMPLAINT PROCEDURES
+- Complaints should be made to HR or the Ethics Committee
+- All complaints will be investigated promptly
+- Confidentiality will be maintained to the extent possible
+- Retaliation against complainants is prohibited
+- Substantiated complaints will result in appropriate disciplinary action
+
+=============================================================================
+8. TRAVEL POLICIES
+=============================================================================
+
+8.1 GENERAL TRAVEL POLICY (adopted July 2008)
+
+8.1.1 BOOKING PROCEDURES
+- All travel must be booked through the Foundation's travel portal
+- Bookings should be made at least 14 days in advance when possible
+- Economy class is standard for all flights under 8 hours
+- Premium economy is permitted for flights over 8 hours
+- Lowest logical fare should be selected
+
+8.1.2 EXPENSE LIMITS
+- Lodging: Up to $125 per night (higher in high-cost cities with approval)
+- Meals: Up to $37.50 per day (receipts required)
+- Ground transportation: Most economical option appropriate to circumstances
+- Incidentals: Up to $12.50 per day
+- Internet access: Reimbursable when necessary for work
+
+8.1.3 REIMBURSEMENT PROCESS
+- Expense reports must be submitted within 30 days of travel
+- Original receipts are required for all expenses over $12.50
+- Business purpose must be documented for each expense
+- Supervisor approval is required for all reimbursements
+- Reimbursement will be processed within 15 business days
+
+8.1.4 REQUIRED DOCUMENTATION
+- Itemized receipts for all expenses over $12.50
+- Conference/meeting agendas when applicable
+- List of attendees for meal expenses
+- Explanation for any exception to standard policy
+- Pre-approval documentation for upgraded accommodations
+
+8.2 TRAVEL APPROVAL PROCESS (adopted October 2007)
+
+8.2.1 AUTHORIZATION LEVELS
+- Domestic travel requires supervisor approval
+- International travel requires Director and Executive Director approval
+- Board travel requires Board Chair approval
+- Executive Director travel requires Board Chair approval
+
+8.2.2 PRE-TRIP REQUIREMENTS
+Travel requests must include:
+- Business purpose and justification
+- Estimated total cost
+- Dates of travel
+- Destination(s)
+- Agenda or meeting schedule
+- Alternative options considered (e.g., virtual participation)
+
+8.2.3 EMERGENCY TRAVEL PROCEDURES
+For urgent, unplanned travel:
+- Verbal approval may be obtained from appropriate authority
+- Documentation must be completed within 3 business days
+- Justification for emergency nature must be provided
+- Standard policies apply to the extent possible
+
+8.2.4 POST-TRIP REPORTING
+Within 15 days of return, travelers must submit:
+- Trip report summarizing activities and outcomes
+- Actual expenses compared to budget
+- Follow-up actions and recommendations
+- Contacts made and relationships developed
+
+=============================================================================
+9. WHISTLEBLOWER PROTECTION (passed June 2007)
+=============================================================================
+
+9.1 PURPOSE
+This policy encourages staff, board members, and volunteers to report suspected misconduct without fear of retaliation, ensuring transparency and accountability.
+
+9.2 REPORTABLE ACTIONS
+Individuals should report:
+- Illegal activities
+- Financial irregularities or fraud
+- Conflicts of interest
+- Ethics violations
+- Safety or security risks
+- Harassment or discrimination
+- Violations of Foundation policies
+
+9.3 REPORTING CHANNELS
+Reports may be made through:
+- Direct supervisor (if appropriate)
+- Human Resources Department
+- Legal Department
+- Ethics Committee
+- Confidential whistleblower hotline: 1-800-WIKIFAKE
+- Secure online portal: whistleblower.wikifake.org
+
+9.4 INVESTIGATION PROCEDURES
+- All reports will be acknowledged within 2 business days
+- Preliminary review will be conducted within 5 business days
+- Formal investigations will be conducted by appropriate personnel
+- Investigations will be thorough, fair, and as confidential as possible
+- Findings will be reported to appropriate leadership
+- Whistleblowers will receive general information about outcomes
+
+9.5 NON-RETALIATION GUARANTEE
+The Foundation strictly prohibits retaliation against whistleblowers, including:
+- Termination or threats of termination
+- Demotion or unfavorable reassignment
+- Exclusion from meetings or activities
+- Hostile work environment
+- Reduction in compensation or benefits
+- Negative performance evaluations without basis
+
+9.6 CONFIDENTIALITY PROVISIONS
+- Whistleblower identities will be kept confidential to the extent possible
+- Anonymous reports will be accepted and investigated
+- Information will be shared only on a need-to-know basis
+- Records will be maintained securely
+- Breaches of confidentiality will result in disciplinary action
+
+=============================================================================
+METADATA
+=============================================================================
+Document Type: Organizational Policies
+Version: 1.0
+Classification: Internal
+Review Cycle: Annual
+Last Review: 2024
+Next Review: 2025
+
+=============================================================================
+DOCUMENT PROPERTIES
+=============================================================================
+Format: Plain text
+Encoding: UTF-8
+Language: English
+Purpose: RAG System Reference
+Usage: Event-Driven Agentic Document Workflows
+
+END OF DOCUMENT 

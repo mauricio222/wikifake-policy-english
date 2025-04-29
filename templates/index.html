@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorador de Políticas Wikifake</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Explorador de Políticas Wikifake</h1>
+            <p>Ver las políticas y hacer preguntas sobre el contenido</p>
+        </header>
+        
+        <main>
+            <div class="content-panel">
+                <h2>Contenido del Documento</h2>
+                <div class="text-content">
+                    <pre>{{ text_content|safe }}</pre>
+                </div>
+            </div>
+            
+            <div class="chat-panel">
+                <h2>Preguntar sobre las Políticas</h2>
+                <div class="chat-container">
+                    <div id="chat-messages">
+                        <div class="message system">
+                            ¡Bienvenido! Hazme cualquier pregunta sobre el documento de políticas de Wikifake.
+                        </div>
+                    </div>
+                    <div class="chat-input-container">
+                        <textarea id="user-input" placeholder="Escribe tu pregunta aquí..." rows="1"></textarea>
+                        <button id="send-button">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html> 

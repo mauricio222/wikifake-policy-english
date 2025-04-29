@@ -3,30 +3,30 @@ document.addEventListener('DOMContentLoaded', () => {
     const userInput = document.getElementById('user-input');
     const sendButton = document.getElementById('send-button');
     
-    // Variable para almacenar el ID de sesión
+    // Variable to store session ID
     let sessionId = localStorage.getItem('chat_session_id') || '';
     
-    // Función para ajustar automáticamente el tamaño del área de texto según su contenido
+    // Function to automatically adjust the textarea size based on its content
     function autoResizeTextarea() {
-        // Restablecer la altura a automático para obtener el scrollHeight correcto
+        // Reset height to auto to get the correct scrollHeight
         userInput.style.height = 'auto';
         
-        // Establecer la altura para que coincida con el contenido (con una altura máxima aplicada vía CSS)
+        // Set height to match content (with maximum height applied via CSS)
         userInput.style.height = (userInput.scrollHeight) + 'px';
     }
     
-    // Inicializar la altura del área de texto
+    // Initialize textarea height
     autoResizeTextarea();
     
-    // Agregar escuchador de eventos para redimensionar mientras el usuario escribe
+    // Add event listener to resize while user types
     userInput.addEventListener('input', autoResizeTextarea);
     
-    // Función para añadir un mensaje al chat
+    // Function to add a message to the chat
     function addMessage(content, type) {
         const messageDiv = document.createElement('div');
         messageDiv.classList.add('message', type);
         
-        // Comprobar si el contenido es HTML (de conversión markdown)
+        // Check if content is HTML (from markdown conversion)
         if (content.startsWith('<')) {
             messageDiv.innerHTML = content;
         } else {
@@ -35,19 +35,19 @@ document.addEventListener('DOMContentLoaded', () => {
         
         chatMessages.appendChild(messageDiv);
         
-        // Desplazarse hasta el final del chat
+        // Scroll to the end of the chat
         chatMessages.scrollTop = chatMessages.scrollHeight;
     }
     
-    // Función para enviar un mensaje a la API
+    // Function to send a message to the API
     async function sendMessage(message) {
-        // Añadir mensaje del usuario al chat
+        // Add user message to chat
         addMessage(message, 'user');
         
-        // Añadir indicador de carga
+        // Add loading indicator
         const loadingDiv = document.createElement('div');
         loadingDiv.classList.add('message', 'bot', 'loading');
-        loadingDiv.textContent = 'Pensando...';
+        loadingDiv.textContent = 'Thinking...';
         chatMessages.appendChild(loadingDiv);
         
         try {
@@ -64,13 +64,13 @@ document.addEventListener('DOMContentLoaded', () => {
             
             const data = await response.json();
             
-            // Almacenar el ID de sesión recibido
+            // Store received session ID
             if (data.session_id) {
                 sessionId = data.session_id;
                 localStorage.setItem('chat_session_id', sessionId);
             }
             
-            // Eliminar indicador de carga
+            // Remove loading indicator
             chatMessages.removeChild(loadingDiv);
             
             if (data.error) {
@@ -79,102 +79,102 @@ document.addEventListener('DOMContentLoaded', () => {
                 addMessage(data.response, 'bot');
             }
         } catch (error) {
-            // Eliminar indicador de carga
+            // Remove loading indicator
             chatMessages.removeChild(loadingDiv);
             
             addMessage(`Error: ${error.message}`, 'system');
         }
     }
     
-    // Función para manejar el envío del mensaje y restablecer el área de texto
+    // Function to handle message sending and reset textarea
     function handleSendMessage() {
         const message = userInput.value.trim();
         if (message) {
             sendMessage(message);
             userInput.value = '';
-            // Restablecer la altura del área de texto después de limpiarlo
+            // Reset textarea height after clearing
             userInput.style.height = 'auto';
             userInput.style.height = userInput.scrollHeight + 'px';
         }
     }
     
-    // Escuchador de eventos para el botón de enviar
+    // Event listener for send button
     sendButton.addEventListener('click', handleSendMessage);
     
-    // Escuchador de eventos para la tecla Enter (pero permitir Shift+Enter para nuevas líneas)
+    // Event listener for Enter key (but allow Shift+Enter for new lines)
     userInput.addEventListener('keydown', (event) => {
         if (event.key === 'Enter' && !event.shiftKey) {
-            event.preventDefault(); // Prevenir el comportamiento predeterminado para evitar añadir una nueva línea
+            event.preventDefault(); // Prevent default behavior to avoid adding a new line
             handleSendMessage();
         }
     });
     
-    // Enfocar el campo de entrada cuando se carga la página
+    // Focus input field when page loads
     userInput.focus();
 });
 
-// Manejar enlaces de la tabla de contenidos
+// Handle table of contents links
 document.addEventListener('DOMContentLoaded', function() {
     const textContent = document.querySelector('.text-content');
     
-    // Añadir escuchador de eventos de clic al área de contenido de texto para delegación
+    // Add click event listener to text content area for delegation
     textContent.addEventListener('click', function(e) {
-        // Comprobar si el elemento clicado es un enlace de TOC
+        // Check if clicked element is a TOC link
         if (e.target.tagName === 'A' && e.target.getAttribute('href').startsWith('#section-')) {
             e.preventDefault();
             
-            // Extraer el ID de sección del href
+            // Extract section ID from href
             const sectionId = e.target.getAttribute('href').substring(1);
             
-            // Encontrar el texto de sección correspondiente según el ID
+            // Find corresponding section text based on ID
             let searchText;
             
-            // Mapa de secciones para simplificar la lógica
+            // Section map to simplify logic
             const sectionMap = {
-                'section-1': "1. POLÍTICA DE CÓDIGO DE CONDUCTA",
-                'section-2': "2. CÓDIGO DE CONDUCTA PARA LA JUNTA DE FIDEICOMISARIOS",
-                'section-3': "3. POLÍTICA DE CONFLICTO DE INTERESES",
-                'section-4': "4. ACUERDO DE CONFIDENCIALIDAD",
-                'section-5': "5. POLÍTICAS FINANCIERAS",
-                'section-6': "6. POLÍTICAS OPERATIVAS",
-                'section-7': "7. POLÍTICAS DE CUMPLIMIENTO",
-                'section-8': "8. POLÍTICAS DE VIAJE", 
-                'section-9': "9. PROTECCIÓN DE DENUNCIANTES",
-                'section-5-1': "5.1 POLÍTICA DE USO DE TARJETAS DE CRÉDITO",
-                'section-5-2': "5.2 POLÍTICA DE DELEGACIÓN DE AUTORIDAD",
-                'section-6-1': "6.1 POLÍTICA DE DIRECTRICES PARA GASTOS DE REPRESENTACIÓN",
-                'section-6-2': "6.2 POLÍTICA DE REGALOS",
-                'section-7-1': "7.1 POLÍTICA ANTICORRUPCIÓN",
-                'section-7-2': "7.2 POLÍTICA DE NO DISCRIMINACIÓN",
-                'section-8-1': "8.1 POLÍTICA GENERAL DE VIAJES",
-                'section-8-2': "8.2 PROCESO DE APROBACIÓN DE VIAJES"
+                'section-1': "1. CODE OF CONDUCT POLICY",
+                'section-2': "2. BOARD OF TRUSTEES CODE OF CONDUCT",
+                'section-3': "3. CONFLICT OF INTEREST POLICY",
+                'section-4': "4. CONFIDENTIALITY AGREEMENT",
+                'section-5': "5. FINANCIAL POLICIES",
+                'section-6': "6. OPERATIONAL POLICIES",
+                'section-7': "7. COMPLIANCE POLICIES",
+                'section-8': "8. TRAVEL POLICIES", 
+                'section-9': "9. WHISTLEBLOWER PROTECTION",
+                'section-5-1': "5.1 CREDIT CARD USAGE POLICY",
+                'section-5-2': "5.2 DELEGATION OF AUTHORITY",
+                'section-6-1': "6.1 DUTY ENTERTAINMENT GUIDELINES",
+                'section-6-2': "6.2 GIFT POLICY",
+                'section-7-1': "7.1 ANTI-CORRUPTION POLICY",
+                'section-7-2': "7.2 NON-DISCRIMINATION POLICY",
+                'section-8-1': "8.1 GENERAL TRAVEL POLICY",
+                'section-8-2': "8.2 TRAVEL APPROVAL PROCESS"
             };
             
-            // Alternativas para diferentes formatos de texto en el documento
+            // Alternatives for different text formats in the document
             const sectionAlternatives = {
-                'section-5-1': ["5.1 USO DE TARJETAS DE CRÉDITO", "5.1 POLÍTICA DE USO DE TARJETAS DE CRÉDITO (adoptada"],
-                'section-5-2': ["5.2 DELEGACIÓN DE AUTORIDAD", "5.2 POLÍTICA DE DELEGACIÓN DE AUTORIDAD"]
+                'section-5-1': ["5.1 CREDIT CARD USAGE", "5.1 CREDIT CARD USAGE POLICY (adopted"],
+                'section-5-2': ["5.2 DELEGATION OF AUTHORITY", "5.2 DELEGATION OF AUTHORITY POLICY"]
             };
             
-            // Obtener el texto de búsqueda primario
+            // Get primary search text
             searchText = sectionMap[sectionId];
             
             if (searchText) {
-                // Obtener el contenido completo del documento
+                // Get complete document content
                 const preElement = textContent.querySelector('pre');
                 const text = preElement.textContent;
                 
-                // Patrones de búsqueda en orden de preferencia
+                // Search patterns in order of preference
                 const searchPatterns = [
-                    // Patrón 1: Línea separadora + título de sección
+                    // Pattern 1: Separator line + section title
                     "=============================================================================\n" + searchText,
-                    // Patrón 2: Solo el título de sección
+                    // Pattern 2: Just the section title
                     searchText,
-                    // Patrón 3: Para secciones con formato especial (5.1, 5.2, etc.)
+                    // Pattern 3: For sections with special format (5.1, 5.2, etc.)
                     ...(sectionAlternatives[sectionId] || [])
                 ];
                 
-                // Buscar la sección usando los patrones en orden
+                // Search for section using patterns in order
                 let foundIndex = -1;
                 for (const pattern of searchPatterns) {
                     const index = text.indexOf(pattern);
@@ -184,51 +184,51 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                 }
                 
-                // Si encontramos la sección, desplazarse a ella
+                // If we found the section, scroll to it
                 if (foundIndex !== -1) {
-                    // Calcular posición aproximada
+                    // Calculate approximate position
                     const lines = text.substring(0, foundIndex).split('\n');
-                    const lineHeight = 22; // Altura de línea aproximada en píxeles
+                    const lineHeight = 22; // Approximate line height in pixels
                     const scrollPosition = lines.length * lineHeight;
                     
-                    // Desplazarse a la posición con un pequeño offset para contexto
+                    // Scroll to position with a small offset for context
                     textContent.scrollTop = scrollPosition - 50;
                     
-                    // Resaltar brevemente la sección encontrada para que sea más fácil de identificar
+                    // Briefly highlight the found section to make it easier to identify
                     highlightSection(preElement, foundIndex, searchText.length);
                 } else {
-                    console.error(`No se pudo encontrar la sección: ${searchText}`);
+                    console.error(`Could not find section: ${searchText}`);
                 }
             }
         }
     });
     
-    // Función para resaltar temporalmente una sección
+    // Function to temporarily highlight a section
     function highlightSection(element, startIndex, length) {
-        // Crear un rango para seleccionar el texto
+        // Create range to select text
         const range = document.createRange();
         const textNode = element.firstChild;
         
-        // Solo intentar seleccionar si existe el nodo de texto
+        // Only try to select if text node exists
         if (textNode && textNode.nodeType === Node.TEXT_NODE) {
             try {
-                // Seleccionar el texto y aplicar un estilo de resaltado
+                // Select text and apply highlight style
                 const tempSpan = document.createElement('span');
                 tempSpan.style.backgroundColor = '#ffff99';
                 tempSpan.style.transition = 'background-color 2s ease';
                 
-                // Intentar ubicar la posición exacta si es posible
-                // (esto es aproximado y puede necesitar ajustes)
+                // Try to locate exact position if possible
+                // (this is approximate and may need adjustments)
                 range.setStart(textNode, startIndex);
                 range.setEnd(textNode, startIndex + length);
                 
-                // Envolver el texto seleccionado
+                // Wrap selected text
                 range.surroundContents(tempSpan);
                 
-                // Quitar el resaltado después de 2 segundos
+                // Remove highlight after 2 seconds
                 setTimeout(() => {
                     tempSpan.style.backgroundColor = 'transparent';
-                    // Después de la transición, restaurar el texto normal
+                    // After transition, restore normal text
                     setTimeout(() => {
                         const parent = tempSpan.parentNode;
                         while (tempSpan.firstChild) {
@@ -238,7 +238,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     }, 2000);
                 }, 1000);
             } catch (e) {
-                console.warn("No se pudo resaltar la sección exacta", e);
+                console.warn("Could not highlight exact section", e);
             }
         }
     }

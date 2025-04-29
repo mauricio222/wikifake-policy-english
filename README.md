@@ -1,6 +1,6 @@
 # Wikifake Policies - English Chat Assistant
 
-A Flask web application that uses Google's Gemini AI to answer questions about specific policies in Spanish. The application loads content from a text file containing policies and provides a chat interface for users to ask questions.
+A Flask web application that uses Google's Gemini AI to answer questions about specific policies in English. The application loads content from a text file containing policies and provides a chat interface for users to ask questions.
 
 ## Features
 
